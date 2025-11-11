@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <devices>
+        <device name="cloud">
+            <id>0</id>
+            <mips>10000</mips>
+            <idle>1</idle>
+            <latitude>500</latitude>
+            <longitude>500</longitude>
+            <attractiveness>6</attractiveness>
+            <downloadspeed>1250</downloadspeed>
+            <uploadspeed>1250</uploadspeed>
+        </device>
+        <device name="Edge_Device1">
+            <id>1</id>
+            <mips>5000</mips>
+            <idle>5</idle>
+            <latitude>20</latitude>
+            <longitude>20</longitude>
+            <attractiveness>0</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device2">
+            <id>2</id>
+            <mips>5000</mips>
+            <idle>5</idle>
+            <latitude>19</latitude>
+            <longitude>21</longitude>
+            <attractiveness>0</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device3">
+            <id>3</id>
+            <mips>5000</mips>
+            <idle>5</idle>
+            <latitude>20</latitude>
+            <longitude>19</longitude>
+            <attractiveness>0</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device4">
+            <id>4</id>
+            <mips>5000</mips>
+            <idle>5</idle>
+            <latitude>21</latitude>
+            <longitude>21</longitude>
+            <attractiveness>0</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device5">
+            <id>5</id>
+            <mips>5000</mips>
+            <idle>4</idle>
+            <latitude>16</latitude>
+            <longitude>16</longitude>
+            <attractiveness>1</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device6">
+            <id>6</id>
+            <mips>5000</mips>
+            <idle>4</idle>
+            <latitude>15</latitude>
+            <longitude>16</longitude>
+            <attractiveness>1</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device7">
+            <id>7</id>
+            <mips>5000</mips>
+            <idle>4</idle>
+            <latitude>16</latitude>
+            <longitude>15</longitude>
+            <attractiveness>1</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device8">
+            <id>8</id>
+            <mips>5000</mips>
+            <idle>6</idle>
+            <latitude>20</latitude>
+            <longitude>15</longitude>
+            <attractiveness>2</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device9">
+            <id>9</id>
+            <mips>5000</mips>
+            <idle>6</idle>
+            <latitude>20</latitude>
+            <longitude>14</longitude>
+            <attractiveness>2</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device10">
+            <id>10</id>
+            <mips>5000</mips>
+            <idle>10</idle>
+            <latitude>15</latitude>
+            <longitude>20</longitude>
+            <attractiveness>3</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device11">
+            <id>11</id>
+            <mips>5000</mips>
+            <idle>10</idle>
+            <latitude>15</latitude>
+            <longitude>21</longitude>
+            <attractiveness>3</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device12">
+            <id>12</id>
+            <mips>5000</mips>
+            <idle>10</idle>
+            <latitude>14</latitude>
+            <longitude>20</longitude>
+            <attractiveness>3</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device13">
+            <id>13</id>
+            <mips>5000</mips>
+            <idle>2</idle>
+            <latitude>25</latitude>
+            <longitude>30</longitude>
+            <attractiveness>4</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device14">
+            <id>14</id>
+            <mips>5000</mips>
+            <idle>2</idle>
+            <latitude>26</latitude>
+            <longitude>30</longitude>
+            <attractiveness>4</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device15">
+            <id>15</id>
+            <mips>5000</mips>
+            <idle>2</idle>
+            <latitude>25</latitude>
+            <longitude>29</longitude>
+            <attractiveness>4</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device16">
+            <id>16</id>
+            <mips>5000</mips>
+            <idle>2</idle>
+            <latitude>24</latitude>
+            <longitude>36</longitude>
+            <attractiveness>4</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device17">
+            <id>17</id>
+            <mips>5000</mips>
+            <idle>3</idle>
+            <latitude>40</latitude>
+            <longitude>50</longitude>
+            <attractiveness>5</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device18">
+            <id>18</id>
+            <mips>5000</mips>
+            <idle>3</idle>
+            <latitude>41</latitude>
+            <longitude>50</longitude>
+            <attractiveness>5</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device19">
+            <id>19</id>
+            <mips>5000</mips>
+            <idle>3</idle>
+            <latitude>42</latitude>
+            <longitude>50</longitude>
+            <attractiveness>5</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+        <device name="Edge_Device20">
+            <id>20</id>
+            <mips>5000</mips>
+            <idle>3</idle>
+            <latitude>40</latitude>
+            <longitude>51</longitude>
+            <attractiveness>5</attractiveness>
+            <downloadspeed>500</downloadspeed>
+            <uploadspeed>500</uploadspeed>
+        </device>
+    </devices>
+</config>

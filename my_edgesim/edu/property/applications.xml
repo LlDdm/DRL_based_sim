@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<applications>
+    <application name="AUGMENTED_REALITY">
+        <usage_percentage>30</usage_percentage>
+        <poisson_interarrival>30</poisson_interarrival>
+        <active_period>15</active_period>
+        <idle_period>40</idle_period>
+        <data_upload>10000</data_upload>
+        <data_download>14000</data_download>
+        <app_length>500</app_length>
+        <avg_num_task>20</avg_num_task>
+        <shape_factor>1</shape_factor>
+        <app_CCR>0.5</app_CCR>
+        <ev_ds>2</ev_ds>
+    </application>
+    <application name="HEALTH_APP">
+        <usage_percentage>20</usage_percentage>
+        <poisson_interarrival>30</poisson_interarrival>
+        <active_period>15</active_period>
+        <idle_period>40</idle_period>
+        <data_upload>12000</data_upload>
+        <data_download>10000</data_download>
+        <app_length>500</app_length>
+        <avg_num_task>20</avg_num_task>
+        <shape_factor>1</shape_factor>
+        <app_CCR>0.5</app_CCR>
+        <ev_ds>2</ev_ds>
+    </application>
+    <application name="HEAVY_COMP_APP">
+        <usage_percentage>20</usage_percentage>
+        <poisson_interarrival>30</poisson_interarrival>
+        <active_period>15</active_period>
+        <idle_period>40</idle_period>
+        <data_upload>10000</data_upload>
+        <data_download>12000</data_download>
+        <app_length>500</app_length>
+        <avg_num_task>20</avg_num_task>
+        <shape_factor>1</shape_factor>
+        <app_CCR>0.5</app_CCR>
+        <ev_ds>2</ev_ds>
+    </application>
+    <application name="INFOTAINMENT_APP">
+        <usage_percentage>30</usage_percentage>
+        <poisson_interarrival>30</poisson_interarrival>
+        <active_period>15</active_period>
+        <idle_period>40</idle_period>
+        <data_upload>5000</data_upload>
+        <data_download>8000</data_download>
+        <app_length>500</app_length>
+        <avg_num_task>20</avg_num_task>
+        <shape_factor>1</shape_factor>
+        <app_CCR>0.5</app_CCR>
+        <ev_ds>2</ev_ds>
+    </application>
+</applications>
