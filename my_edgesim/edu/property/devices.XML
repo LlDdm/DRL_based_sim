@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <devices>
-        <device name="cloud">
+        <device name="cloud">-
             <id>0</id>
             <mips>10000</mips>
             <idle>1</idle>
@@ -10,7 +10,9 @@
             <attractiveness>6</attractiveness>
             <downloadspeed>1250</downloadspeed>
             <uploadspeed>1250</uploadspeed>
+            <radius>5</radius>>
         </device>
+
         <device name="Edge_Device1">
             <id>1</id>
             <mips>5000</mips>
@@ -20,7 +22,9 @@
             <attractiveness>0</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device2">
             <id>2</id>
             <mips>5000</mips>
@@ -30,7 +34,9 @@
             <attractiveness>0</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device3">
             <id>3</id>
             <mips>5000</mips>
@@ -40,7 +46,9 @@
             <attractiveness>0</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device4">
             <id>4</id>
             <mips>5000</mips>
@@ -50,7 +58,9 @@
             <attractiveness>0</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device5">
             <id>5</id>
             <mips>5000</mips>
@@ -60,7 +70,9 @@
             <attractiveness>1</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device6">
             <id>6</id>
             <mips>5000</mips>
@@ -70,7 +82,9 @@
             <attractiveness>1</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device7">
             <id>7</id>
             <mips>5000</mips>
@@ -80,7 +94,9 @@
             <attractiveness>1</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device8">
             <id>8</id>
             <mips>5000</mips>
@@ -90,7 +106,9 @@
             <attractiveness>2</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device9">
             <id>9</id>
             <mips>5000</mips>
@@ -100,7 +118,9 @@
             <attractiveness>2</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device10">
             <id>10</id>
             <mips>5000</mips>
@@ -110,7 +130,9 @@
             <attractiveness>3</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device11">
             <id>11</id>
             <mips>5000</mips>
@@ -120,7 +142,9 @@
             <attractiveness>3</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device12">
             <id>12</id>
             <mips>5000</mips>
@@ -130,7 +154,9 @@
             <attractiveness>3</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device13">
             <id>13</id>
             <mips>5000</mips>
@@ -140,7 +166,9 @@
             <attractiveness>4</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device14">
             <id>14</id>
             <mips>5000</mips>
@@ -150,7 +178,9 @@
             <attractiveness>4</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device15">
             <id>15</id>
             <mips>5000</mips>
@@ -160,7 +190,9 @@
             <attractiveness>4</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device16">
             <id>16</id>
             <mips>5000</mips>
@@ -170,7 +202,9 @@
             <attractiveness>4</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device17">
             <id>17</id>
             <mips>5000</mips>
@@ -180,7 +214,9 @@
             <attractiveness>5</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device18">
             <id>18</id>
             <mips>5000</mips>
@@ -190,7 +226,9 @@
             <attractiveness>5</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device19">
             <id>19</id>
             <mips>5000</mips>
@@ -200,7 +238,9 @@
             <attractiveness>5</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
+
         <device name="Edge_Device20">
             <id>20</id>
             <mips>5000</mips>
@@ -210,6 +250,7 @@
             <attractiveness>5</attractiveness>
             <downloadspeed>500</downloadspeed>
             <uploadspeed>500</uploadspeed>
+            <radius>5</radius>
         </device>
     </devices>
 </config>

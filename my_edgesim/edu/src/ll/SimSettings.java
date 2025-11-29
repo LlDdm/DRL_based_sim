@@ -56,16 +56,22 @@ public class SimSettings {
     private String[] ORCHESTRATOR_POLICIES;
     private String[] USE_SCENARIOS;
 
-    private double[][] appLookUpTable = null;
-    private String[] appNames = null;
+    private double[][] appLookUpTable;
+    private String[] appNames;
 
-    private double[][] edgeDeviceLookUpTable = null;
-    private String[] edgeDeviceNames = null;
+    private double[][] edgeDeviceLookUpTable;
+    private String[] edgeDeviceNames;
 
-    private double[][] connectionTypeLookUpTable =new double[3][1];
+    private final double[][] connectionTypeLookUpTable = new double[3][1];;
+
+    private final double[] areaRange = new double[2];;
 
     private SimSettings() {
         Attractiveness_NUM = 0;
+        edgeDeviceLookUpTable = null;
+        edgeDeviceNames = null;
+        appLookUpTable = null;
+        appNames = null;
     }
 
     public static SimSettings getInstance() {
@@ -109,6 +115,9 @@ public class SimSettings {
             connectionTypeLookUpTable[0][0] = Double.parseDouble(prop.getProperty("lanType_percentage", "0"));
             connectionTypeLookUpTable[1][0] = Double.parseDouble(prop.getProperty("wlanType_percentage", "0"));
             connectionTypeLookUpTable[2][0] = Double.parseDouble(prop.getProperty("GSM_percentage", "0"));
+
+            areaRange[0] = Double.parseDouble(prop.getProperty("length", "0"));
+            areaRange[1] = Double.parseDouble(prop.getProperty("width", "0"));
 
         }
         catch (IOException ex) {
@@ -234,6 +243,11 @@ public class SimSettings {
         return ORCHESTRATOR_POLICIES;
     }
 
+    //获取模拟场景的区域范围（KM）
+    public double[] getAreaRange()
+    {
+        return areaRange;
+    }
 
     public double[][] getAppLookUpTable()
     {
@@ -359,7 +373,7 @@ public class SimSettings {
     }
 
     private void parseEdgeDevicesXML(String filePath) {
-        Document doc = null;
+        Document doc;
         try {
             File devicesFile = new File(filePath);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -375,7 +389,8 @@ public class SimSettings {
                     "longitude",
                     "attractiveness",
                     "downloadspeed",
-                    "uploadspeed"
+                    "uploadspeed",
+                    "radius"
             };
 
             NodeList deviceList = doc.getElementsByTagName("device");
